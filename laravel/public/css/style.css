@@ -1,0 +1,165 @@
+@import url('http://fonts.googleapis.com/css?family=Special+Elite');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Pathway+Gothic+One|PT+Sans+Narrow:400+700|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all');
+
+/*identificdores*/
+
+
+
+#logo_letra {
+    font-size: 2.5em;
+    font-family: "Open Sans";
+    color: #000000;
+    font-weight: bold;
+}
+#logo_letra:hover{
+    text-decoration: none;
+}
+
+.uneditable-input{
+    max-width: 800px;
+}
+/*clases*/
+.color_letra{
+    color: #E54A1A;
+}
+.color_letra2{
+    color: #ffffff;
+}
+.color_letra1{
+    color: rgba(112, 112, 112, 0.78);;
+}
+.color_letra3{
+    color: #4aa5f1;
+}
+.edit-paciente{
+    margin-top: 0px;
+    padding-top: 277px;
+}
+.edit-paciente-button{
+    text-align: center;
+    padding-top: 20px;
+}
+.edit-paciente-nafiliado{
+    margin-bottom: 4%;
+}
+.row-form-hc{
+    padding-bottom: 3px;
+}
+.historia-clinica-portlets{
+    padding: 0;
+}
+.imprimir-rp{
+    float: right;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+.imprimir-rp-body{
+    margin-left: 2%;
+}
+.imprimir-rp-cabecera{
+    margin: 0 auto;
+}
+.imprimir-rp-line{
+    border-top: 1px solid rgba(9, 9, 9, 0.58);
+}
+.imprimir-rp-logo{
+    font-size: 1.2em !important;
+}
+.imprimir-examenes-complementarios{
+    margin-top: 5px;
+    margin-left: 65%;
+}
+.logo{
+    margin-top: 0px !important;
+}
+#map {
+    width: 100%;
+    height: 500px;
+}
+.profile-hc{
+    text-align: center;
+}
+.profile-hc-derecha{
+    margin-top: 10%;
+}
+.profile-usermenu ul li {
+    border-bottom: 1px solid #CCD8E0;
+}
+.space-hc{
+    padding-top: 3%;
+}
+.space-hc2{
+    padding-top: 0.5%;
+}
+
+.timeline-hc-bottom{
+    border-top: solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.timeline-hc-rigth{
+    border-right: solid 1px;
+    padding-bottom: 10px;
+
+}
+.timeline-hc-left{
+    border-left: solid 2px;
+    padding-bottom: 10px;
+
+}
+
+/*LOGIN*/
+.login .content {
+    margin: 10% auto;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.login .content form {
+    overflow: hidden;
+}
+
+.login .content form .form-title {
+    text-align: center;
+}
+
+/*
+Upload Imagen
+*/
+
+.dropper-dropzone{
+    margin: 5px 0 5px 80px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    width:78px;
+    padding:3px;
+    height:100px;
+    position: relative;
+}
+.examen-fisico{
+    margin: 5px 0 5px 45px !important;
+}
+.dropper-dropzone>img{
+    width:78px;
+    height:100px;
+    margin-top=0;
+}
+
+.dropper-dropzone>span {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color:#ccc;
+
+
+}
+#dropImagenUpload {
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.dropper .dropper-dropzone{
+
+    padding:3px !important
+}
